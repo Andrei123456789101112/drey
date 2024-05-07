@@ -131,7 +131,7 @@ if(isset($_SESSION['redirect'])) {
             <span class="error" style='color: red;'><?php echo $emailErr; ?></span>
         </div>
         <div class="form-group">
-            <label for="password">Password:</label>
+            <label for="password">Passwords:</label>
             <input type="password" id="password" name="password" value="<?php echo $password; ?>"><br>
             <span class="error" style='color: red;'><?php echo $passwordErr; ?></span>
         </div> 
